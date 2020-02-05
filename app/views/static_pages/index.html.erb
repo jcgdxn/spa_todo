@@ -3,10 +3,34 @@
 <section class="todoapp">
   <header class="header">
     <h1>Todos: Projects or Chores & Focused Objectives destined for Timely Resolve  </h1>
+
+    <input class="new-todo" placeholder="What needs to be done?" autofocus="">
+
   </header>
 
 
   <section class="main">
+    <ul class="todo-list">
+                            <!-- eg.~> material added below -->
+                          <!-- <li>
+                                    <div class="view">
+                                      <input class="toggle" type="checkbox">
+                                      <label>Do laundry</label>
+                                    </div>
+                          </li> -->
+
+    </ul>
 
   </section>
 </section>
+
+
+<script>
+  $(function() {
+    // console.log("Hello, JavaScript");
+
+    $.get("/tasks").success( function( data ) {
+      console.log(data);
+    });
+  });
+</script>

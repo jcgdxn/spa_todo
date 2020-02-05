@@ -7,14 +7,16 @@
     <h1>todos</h1>
     <input class="new-todo" placeholder="What needs to be done?" autofocus="">
   </header>
-  <section class="main">
-    <ul class="todo-list">
+
+  <section class="main">                #main section w/o tasks
+    <ul class="todo-list">              #html list
       <li>
         <div class="view">
           <input class="toggle" type="checkbox">
-          <label>laundry</label>
+          <label>'laundry'</label>      #label s/hve the topic list akin to title
         </div>
       </li>
     </ul>
   </section>
+
 </section>
