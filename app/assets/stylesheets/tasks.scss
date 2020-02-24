@@ -39,7 +39,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 300;
 }
-
+// inserted from github underline
+:focus {
+	outline: 0;
+}
+//
 button,
 input[type="checkbox"] {
   outline: none;

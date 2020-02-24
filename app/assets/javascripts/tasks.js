@@ -1,4 +1,4 @@
-
+// javaScript code deployed 
 // moving JavaScript code in file_name.js using code from Index Page...
 
 $(function() {
