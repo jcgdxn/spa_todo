@@ -1,4 +1,4 @@
-// javaScript code deployed 
+// javaScript code deployed
 // moving JavaScript code in file_name.js using code from Index Page...
 
 $(function() {
@@ -38,6 +38,7 @@ $(function() {
         var $li = $("#listItem-" + data.id);
         $li.replaceWith(liHtml);
         $('.toggle').change(toggleTask);
+
       } );
     }
 
